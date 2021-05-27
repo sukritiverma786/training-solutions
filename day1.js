@@ -1,11 +1,11 @@
 "use strict";
 exports.__esModule = true;
 for (var i = 0; i <= 3; i++) {
-    var chhoti = "";
+    var printstar = "";
     for (var j = 0; j <= 8; j++) {
-        chhoti = chhoti + "*";
+        printstar = printstar + "*";
     }
-    console.log(chhoti);
+    console.log(printstar);
 }
 for (var i = 0; i <= 4; i++) {
     var printStar = " ";
@@ -22,16 +22,16 @@ for (var i = 0; i <= 4; i++) {
     console.log(printStar);
 }
 for (var i = 0; i <= 4; i++) {
-    var chhoti = " ";
+    var printstar = " ";
     for (var j = 0; j <= 4; j++) {
         if (i == 0 || i == 4 || j == 0 || j == 4) {
-            chhoti = chhoti + "*";
+            printstar = printstar + "*";
         }
         else {
-            chhoti = chhoti + " ";
+            printstar = printstar + " ";
         }
     }
-    console.log(chhoti);
+    console.log(printstar);
 }
 for (var i = 5; i >= 1; i--) {
     var right = "";

@@ -1,12 +1,12 @@
 export{}
 
  for(let i=0;i<=3;i++){
-    let chhoti="";
+    let printstar="";
     for(let j=0; j<=8; j++){
-        chhoti=chhoti+"*"
+        printstar=printstar+"*"
     
     }
-    console.log(chhoti);
+    console.log(printstar);
 } 
 
 
@@ -33,16 +33,16 @@ for (let i = 0; i <= 4; i++) {
 
 
 for(let i=0;i<=4;i++){
-    let chhoti=" ";
+    let printstar=" ";
     for(let j=0; j<=4; j++){
         if(i==0 ||i==4 ||j==0|| j==4){
-        chhoti=chhoti+"*";
+        printstar=printstar+"*";
         }
         else{
-            chhoti=chhoti+" ";
+            printstar=printstar+" ";
         }
     }
-    console.log(chhoti);
+    console.log(printstar);
 } 
 
 for (let i = 5; i >= 1; i--) {
@@ -52,4 +52,5 @@ for (let i = 5; i >= 1; i--) {
     }
     console.log(right);
 }
+
 
