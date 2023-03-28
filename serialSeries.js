@@ -8,5 +8,20 @@ for (i = 0; i <= 4; i++) {
 }
 console.log(a);
 
-// right triangle pattarn
+// ********** right triangle pattarn
 
+let n = 5;
+let startPrint = "";
+
+for (i = 1; i <= n; i++) {
+  for (j = 1; j <= n - i; j++) {
+    startPrint += " ";
+  }
+
+  for (k = 1; k <= i; k++) {
+    startPrint += "*";
+  }
+  startPrint+=("\n")
+}
+
+console.log(startPrint);
